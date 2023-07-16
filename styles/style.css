@@ -64,7 +64,7 @@ nav li a{
   width: 100%;
 }
 
-/* teams style */
+/* team section style */
 .teams-container{
   display: flex;
   align-items: center;
@@ -87,4 +87,43 @@ nav li a{
 .teams-title .text-features{
   color: #FF900E;
   font-weight: 700;
+}
+
+/* feature section styles */
+.features{
+  margin-top: 130px;
+  display: flex;
+  gap: 100px;
+}
+.features .section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-content .card{
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.feature-img img{
+  height: 80%;
+  margin-left: 90px;
+}
+.ten-years-badge{
+  position: relative;
+  width: 340px;
+  padding: 40px;
+  color: #FFF;
+  background: #FF900E;
+  text-align: center;
+  border-radius: 8px;
+  bottom: 110px;
+}
+.ten-years-badge h2{
+  font-size: 4rem;
+  margin: 0;
+}
+.ten-years-badge p{
+  font-size: 1.5rem;
 }
